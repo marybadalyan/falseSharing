@@ -80,7 +80,7 @@ To clone and run this project, you'll need Git and CMake installed on your compu
 4. **Build the project**:
 
    ```bash
-   $ cmake --build build --config Debug
+   $ cmake --build build --config Release
    ```
 
 5. **Run the executable**:
