@@ -8,13 +8,13 @@ struct A{
     volatile int x = 0;
     volatile int y = 1;
     void fx() {
-        for(int i = 0; i < 1000000; ++i){
+        for(int i = 0; i < 1000; ++i){
             x++;
         }
     }
     void fy() {
         volatile int sum = 0;
-        for(int i = 0; i < 1000000; ++i){
+        for(int i = 0; i < 1000; ++i){
             sum += y;
         }
     }
@@ -24,13 +24,13 @@ struct B{
     volatile int x = 0;
     alignas(64) volatile int y = 1;
     void fx() {
-        for(int i = 0; i < 1000000; ++i){
+        for(int i = 0; i < 1000; ++i){
             x++;
         }
     }
     void fy() {
         volatile int sum = 0;
-        for(int i = 0; i < 1000000; ++i){
+        for(int i = 0; i < 1000; ++i){
             sum += y;
         }
     }
