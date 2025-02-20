@@ -74,13 +74,13 @@ To clone and run this project, you'll need Git and CMake installed on your compu
 3. **Generate the build files**:
 
    ```bash
-   $ cmake  -S . -B build
+   $ cmake -DCMAKE_BUILD_TYPE=Release -S . -B build
    ```
 
 4. **Build the project**:
 
    ```bash
-   $ cmake --build build --config Debug
+   $ cmake --build build --config Release
    ```
 
 5. **Run the executable**:
