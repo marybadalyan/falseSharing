@@ -83,14 +83,7 @@ To clone and run this project, you'll need Git and CMake installed on your compu
    $ cmake --build build --config Release
    ```
 
-5. **Run the executable**:
-
-   The executable will be generated in the `build` directory. Run it using:
-
-   ```bash
-   $ ./build/falseSharing
-   ```
-
+Than run the executable  generated in the `build` directory.
 ## Requirements
 
 - C++20 standard or later.
