@@ -75,7 +75,7 @@ int main() {
               << std::setw(20) << std::right << "Time (ms)" << std::endl;
     std::cout << std::string(60, '-') << std::endl;
 
-    for (int i = 0; i < 20; ++i) {
+    for (int i = 0; i < 5; ++i) {
         test_threading_false_sharing();
         test_no_threading();
         test_threading_no_false_sharing();
